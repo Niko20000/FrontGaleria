@@ -1,6 +1,33 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este proyecto lo hicimos en visual studio code con los lenguajes de programacion : javascript , html
+
+en este momento el proyecto esta en fase de desarrollo donde buscamos
+bugs para arreglarlos lo mas pronto posible pero el proyecto esta 
+bastante bien con algunas oportunidades de mejora en el futuro.
+
+
+## iNTEGRANTES                      ROLES
+Angel                               Ayuda y soluciona problemas con los trabajos
+Emmanuel Cardona                    Mantener al equipo unido
+Nikolas Martinez Morales            Hacer que cada integrante del grupo cumpla con su rol
+Samuel Galvis                       Solucionar problemas con el codigo
+Mariana Bedoya                      Estar al dia con las tareas del aula
+
+
+## Proposito
+creamos esta pagina web con el fin de que ademas de saber quienes
+hicieron el proyecto queremos que sea algo divertido y con fines 
+de Educacion y seguir aprendiendo.
+
+
+
+
+
+
+
+
+
 
 ## Folder Structure
 
