@@ -22,7 +22,7 @@ de Educacion y seguir aprendiendo.
 
 ## Fecha de creacion 
 5/11/2025 
-## Fechas en la queu se trabajo
+## Fechas en la que se trabajo
 5/11/2025 -> 11/11/2025
  
 
