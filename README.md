@@ -7,8 +7,8 @@ bugs para arreglarlos lo mas pronto posible pero el proyecto esta
 bastante bien con algunas oportunidades de mejora en el futuro.
 
 
-## iNTEGRANTES                      ROLES
-**Angel                               Ayuda y soluciona problemas con los trabajos
+## iNTEGRANTES               /        ROLES
+**Angel Matias Naranjo                Ayuda y soluciona problemas con los trabajos
 **Emmanuel Cardona                    Mantener al equipo unido
 **Nikolas Martinez Morales            Hacer que cada integrante del grupo cumpla con su rol
 **Samuel Galvis                       Solucionar problemas con el codigo
