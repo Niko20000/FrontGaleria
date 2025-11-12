@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galvis - Proyecto PoetryDB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> Proyecto Galvis: Poemas Aleatorios</h1>
+        <p>Integración con la API PoetryDB para obtener un listado de poemas de un autor.</p>
+    </header>
+
+    <main>
+        <div id="controls">
+            <button id="btnCargar" class="primerboton">Cargar Libros</button>
+            <button id="btnLimpiar" class="segundoboton">Limpiar Resultados</button>
+        </div>
+         <a href="index.html" class="segundoboton">← Volver al Menú</a>
+        
+        <section id="results-container" class="cards-grid">
+            <p id="initial-message">Haz clic en "Cargar Poemas de Shakespeare".</p>
+        </section>
+    </main>
+
+    <script src="galvis.js"></script>
+</body>
+</html>

@@ -1,0 +1,232 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #2d2f31;  
+    color: #f1f1f1;              
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background: #1f2021;
+    color: white;
+    width: 100%;
+    padding: 25px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 15px;
+    opacity: 0.85;
+    margin-top: 4px;
+}
+
+
+main {
+    width: 100%;
+    max-width: 1000px;
+    padding: 40px 20px;
+}
+
+.register {
+    background: #3a3c3e;
+    margin-top: 40px;
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+}
+
+.register h2 {
+    color: #f8f9fa;
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+
+form div {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: #e6e6e6;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1.5px solid #555;
+    border-radius: 8px;
+    background-color: #222;
+    color: #f1f1f1;
+    font-size: 15px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+    outline: none;
+}
+
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botonRegistro {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 48%;
+    transition: background 0.3s;
+}
+
+.botonRegistro:hover {
+    background-color: #0069d9;
+}
+
+.botonLimpiar {
+    background-color: #6c757d;
+    color: white;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 48%;
+    transition: background 0.3s;
+}
+
+.botonLimpiar:hover {
+    background-color: #5a6268;
+}
+
+
+.login {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #bbb;
+}
+
+.login a {
+    color: #66b0ff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+
+.cards-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.book-card, .project-card {
+    background-color: #f8f8f8;
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    transition: transform 0.2s, box-shadow 0.3s;
+    color: #222;
+}
+
+.book-card:hover,
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.25);
+}
+
+.book-card h3 {
+    color: #007bff;
+    margin-top: 0;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.book-card p {
+    margin: 5px 0;
+    font-size: 0.95em;
+}
+
+.book-card .author {
+    font-style: italic;
+    color: #6c757d;
+}
+
+
+.bottonDelIndex {
+    display: inline-block;
+    padding: 10px 18px;
+    margin-left: 10px;
+    text-decoration: none;
+    background-color: #5d5d5e;
+    color: white;
+    border-radius: 6px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.bottonDelIndex:hover {
+    background-color: #4c4f53;
+}
+
+
+@media (max-width: 480px) {
+    .register {
+        padding: 30px 25px;
+    }
+
+    .register h2 {
+        font-size: 22px;
+    }
+
+    .botones {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .botonRegistro,
+    .botonLimpiar {
+        width: 100%;
+    }
+}

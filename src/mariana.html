@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariana - Proyecto Book Cover API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> Proyecto Mariana: Portadas de Libros</h1>
+        <p>Integración con la API de Open Library para mostrar portadas (usando el ISBN de prueba).</p>
+    </header>
+
+    <main>
+       
+        <div id="controls">
+            <button id="btnCargar" class="primerboton">Cargar Libros</button>
+            <button id="btnLimpiar" class="segundoboton">Limpiar Resultados</button>
+        </div>
+         <a href="index.html" class="segundoboton">← Volver al Menú</a>
+        
+        <section id="results-container" class="cards-grid">
+            <p id="initial-message">Haz clic en "Cargar Portadas de Prueba".</p>
+        </section>
+    </main>
+
+    <script src="mariana.js"></script>
+</body>
+</html>
